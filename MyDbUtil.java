@@ -24,6 +24,10 @@ import org.apache.commons.dbutils.handlers.ScalarHandler;
 import com.MyConfigure;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
+/**
+*
+*数据库工具
+*/
 public class MyDbUtil {
 	// --数据源,整个程序中都只有这一个数据源
 	private static ComboPooledDataSource dataSource;
